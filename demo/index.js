@@ -1,6 +1,6 @@
 import { GeoServerRestClient } from '../geoserver-rest-client.js';
 
-const url = 'http://localhost:8080/geoserver/rest/';
+const url = 'http://derickongeri.com/geoserver/rest/';
 const user = 'admin';
 const pw = 'geoserver';
 const grc = new GeoServerRestClient(url, user, pw);
